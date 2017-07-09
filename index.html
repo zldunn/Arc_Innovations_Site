@@ -25,7 +25,9 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
 
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,6 +42,7 @@
      type="image/png"
      href="img/Logo-08.png">
 <body id="page-top" style="margin:auto">
+
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -78,11 +81,17 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header style = "background-color:black">
-    
-   
-        
-        <div class="header-content">
+
+    <header >
+            <!-- particles.js container -->
+    <div id="particles-js">
+        <!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
+      <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+    <script src='https://threejs.org/examples/js/libs/stats.min.js'></script>
+
+        <script src="js/index.js"></script>
+ </div>
+        <div class="header-content" >
     
             <div class="header-content-inner" style = "background-color: rgb(65,66,66) ; -webkit-border-radius: 15px; padding-bottom: 10px; padding-top: 7px"; >
             <img  class="our-team-image" src ="img/white_logo.png" style = "width: 35%; border-radius:200px"
@@ -96,14 +105,14 @@
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
-        
+       
     </header>
 
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Who We Are</h2>
                     <hr class="light">
                     <p class="text-faded">We are a team of dedicated, driven, and talented engineers who can help bring your research into the 21st century. Our interdisciplinary experience is unmatched, and allows for intellegent and quick production of your research goals.</p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
